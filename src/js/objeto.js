@@ -1,4 +1,7 @@
-const body = {
+
+
+
+let body = {
   'api_key': '86148.07342184ae1909031c152a3910112d4e1ae4c7f328',
   'order_id': '654321',
   'team_id': '',
@@ -12,7 +15,7 @@ const body = {
   'job_pickup_longitude': '76.810296',
   'job_pickup_datetime': '2016-08-14 19:00:00',
   'customer_email': 'john@example.com',
-  'customer_username': 'John Doe',
+  'customer_username': `${name}`,
   'customer_phone': '+12015555555',
   'customer_address': 'frigate bay 2',
   'latitude': '30.7188978',

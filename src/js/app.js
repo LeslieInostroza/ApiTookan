@@ -11,6 +11,6 @@ request.onreadystatechange = function () {
     console.log('Body:', this.responseText);
   }
 };
-console.log(request);
+/* console.log('request' + request); */
 
 
